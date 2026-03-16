@@ -19,7 +19,9 @@ nav a{
    color: rgb(165, 123,123);
     &:hover{
     color: rgb(128, 48, 48);
-    transition: 0.5s;
+    transition: 0.8s;
+    background-color: antiquewhite;
+    border-radius: 10px 10px 20px 20px;
     }
 .banner a{
     padding: 15px;
@@ -33,13 +35,10 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color:rgb(255, 237, 237);
+    background-color:rgba(255, 237, 237, 0.685);
     box-shadow: 0px 0px 5px;
     width: 100%;
     position: fixed;
-}
-nav{
-    
 }
 .home{
     height: 800px;
@@ -161,8 +160,8 @@ section.about img{
     margin:auto;
     text-align:center;
 }
-.imgprofile img{
-    width:100%;
+.cardprofile img{
+    width:80%;
 }
 .medsos{
     left:0;
