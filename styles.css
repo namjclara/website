@@ -159,9 +159,12 @@ section.about img{
     width:300px;
     margin:auto;
     text-align:center;
+    height: 550px;
+    padding-top: 20px;
+    border-radius: 20px;
 }
 .cardprofile img{
-    width:80px;
+    width:80%;
 }
 .medsos{
     left:0;
